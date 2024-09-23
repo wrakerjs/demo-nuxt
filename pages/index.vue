@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Wraker } from "wraker";
+import { Wraker } from "@wraker/core";
 import defaultWorker from "~/public/default.worker?url";
 
 const data = ref<any>(null);
